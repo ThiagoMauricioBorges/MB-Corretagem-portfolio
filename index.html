@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--MAIN JS-->
+  <script src="JavaScript/main.js"></script>
+
+  <!-- -->
+
+  <!--SWIPER -->
+  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>-->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/queries.css">
+
+  <!--FAVICON-->
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+
+  <!-- FONTS-->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+  <!--BOX ICONS-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <title>MB Corretagem - A sua corretora de Imóveis</title>
+</head>
+<body>
+  <!--<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>-->
+  
+  <!--Navbar-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <img src="img/logo.jpeg" alt="Logo da MB corretagem" class="logo">
+
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link"><i class='bx bx-home-alt-2'></i><span>Home</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#popular" class="nav__link"><i class='bx bx-building-house' ></i><span>Portfólio</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#sobre" class="nav__link"><i class='bx bx-award' ></i><span>Sobre nós</span></a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link"><i class='bx bx-phone' ></i><span>Contato</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home_data">
+          <h1 class="home__title">Bem-Vindos a MB Corretagem</h1>
+          <p class="home__description">Transformando sonhos em endereços! Encontre o lar perfeito com a gente.</p>
+        </div>
+        <div class="home__img">
+          <img src="img/marcamenor.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="popular section" id="popular">
+      <div class="container">
+        <h2 class="section__title">Encontre o imóvel dos seus sonhos</h2>
+
+        <div class="popular__container swiper">
+          <div class="swiper-wrapper">
+            <article class="popular__card swiper-slide">
+              <img src="img/popular1.jpg" alt="" class="popular__img">
+              <div class="popular__data">
+                <h2 class="popular__price"><span>R$</span>150,000</h2>
+                <h3 class="popular__title"><!--Titulo opcional--></h3>
+                <p class="popular__description">Rua Vereador Sebastião de Melo, Cascatinha - Petrópolis</p>
+              </div>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <img src="img/popular2.jpg" alt="" class="popular__img">
+              <div class="popular__data">
+                <h2 class="popular__price"><span>R$</span>200,000</h2>
+                <h3 class="popular__title"><!--Titulo opcional--></h3>
+                <p class="popular__description">Av. Ipiranga, Centro - Petrópolis</p>
+              </div>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <img src="img/popular3.jpg" alt="" class="popular__img">
+              <div class="popular__data">
+                <h2 class="popular__price"><span>R$</span>80,500</h2>
+                <h3 class="popular__title"><!--Titulo opcional--></h3>
+                <p class="popular__description">Av. Getulio Vargas, Quitandinha - Petrópolis</p>
+              </div>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <img src="img/popular4.jpg" alt="" class="popular__img">
+              <div class="popular__data">
+                <h2 class="popular__price"><span>R$</span>75,700</h2>
+                <h3 class="popular__title"><!--Titulo opcional--></h3>
+                <p class="popular__description">Rua Coronel Veiga, Quitandinha - Petrópolis</p>
+              </div>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <img src="img/popular5.jpg" alt="" class="popular__img">
+              <div class="popular__data">
+                <h2 class="popular__price"><span>R$</span>230,350</h2>
+                <h3 class="popular__title"><!--Titulo opcional--></h3>
+                <p class="popular__description">Av. dos Pinheiros, Independência - Petrópolis</p>
+              </div>
+            </article>
+          </div>
+          
+          <!--<div class="swiper-button-next">
+            <i class='bx bx-chevron-right'></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class='bx bx-chevron-left' ></i>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+    <section class="sobre section" id="sobre">
+      <div class="sobre-img">
+        <img src="img/logo-Photoroom.png" alt="">
+      </div>
+      <div class="sobre-texto">
+        <h2>A mais nova Corretora da Região Serrana</h2>
+        <p>Cobertura completa da cidade imperial.</p>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <div class="contact__images">
+          <div class="contact__orbe"></div>
+
+          <div class="contact__img"> <img src="img/marcasolo.jpg" alt=""></div>
+        </div>
+        <div class="contact__content">
+          <div class="contact__data">
+            <h2 class="section__title">Fácil de entrar em contato.</h2>
+          </div>
+
+          <div class="contact__card">
+
+            <div class="contact__card-box">
+              <div class="contact__card-info">
+                <i class='bx bx-phone-call' ></i>
+                <div>
+                  <h3 class="contact__card-title">Ligue</h3>
+                  <p class="contact__card-description">(24) 99226-0205</p>
+                </div>
+              </div>
+              <a href="tel:+5524992260205" target="_blank"><button class="button contact__card-button">Ligue agora</button></a>
+            </div>
+            
+            <div class="contact__card-box">
+              <div class="contact__card-info">
+                <i class='bx bxl-whatsapp'></i>
+                <div>
+                  <h3 class="contact__card-title">Mensagem</h3>
+                  <p class="contact__card-description">(24) 99226-0205</p>
+                </div>
+              </div>
+              <a href="https://wa.me/5524992260205?text=Quero%20adquirir%20uma%20resid%C3%AAncia" target="_blank"><button class="button contact__card-button">Mensagem</button></a>
+            </div>
+
+            <div class="contact__card-box">
+              <div class="contact__card-info">
+                <i class='bx bx-envelope'></i>
+                <div>
+                  <h3 class="contact__card-title">E-mail</h3>
+                  <p class="contact__card-description"></p>
+                </div>
+              </div>
+              <a href="mborgescorretordeimoveis@gmail.com" target="_blank"><button class="button contact__card-button">Mande um E-mail</button></a>
+            </div>
+
+            <div class="contact__card-box">
+              <div class="contact__card-info">
+                <i class='bx bxl-instagram' ></i>
+                <div>
+                  <h3 class="contact__card-title">Instagram</h3>
+                  <p class="contact__card-description"></p>
+                </div>
+              </div>
+              <a href="https://www.instagram.com/mbcorretagemdeimoveis?igsh=MXQ3Y3h3cnZ5bW5ybQ==" target="_blank"><button class="button contact__card-button">Envie um Direct</button></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section">
+    <div class="footer__container container grid">
+      <p>&#169;MB Corretagem. Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+</body>
+</html>
