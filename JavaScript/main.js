@@ -1,38 +1,3 @@
-/*const swiper = new Swiper('.swiper', {
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});
-
-
-
-var swiperPopular = new Swiper(".popular__container", {
-  spaceBetween: 32,
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: 'auto',
-  loop: true,
-
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});*/
-
-
 
 const sections = document.querySelectorAll('section[id]')
 

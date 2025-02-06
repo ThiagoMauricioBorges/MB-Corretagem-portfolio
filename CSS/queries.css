@@ -39,7 +39,7 @@
   }
 }
 
-@media (max-width: 1023px) {
+/*@media (max-width: 1023px) {
   .nav__menu {
     position: fixed;
     bottom: 2rem;
@@ -68,7 +68,10 @@
     display: none;
   }
 
-}
+}*/
+
+
+
 
 
 /*Celular pequeno*/
@@ -97,3 +100,43 @@
   
 }
 
+
+/* dispositivos medios*/
+
+@media (min-width: 576px) {
+  .popular__container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .popular__card {
+    flex: 1 1 45%;
+    margin: .6rem;
+  }
+
+  .popular__card:last-child {
+    flex: 0 1 50%;
+    margin: 0 auto;
+  }
+
+  .nav__menu {
+    width: 80%;
+  }
+
+  .contact__card {
+    grid-template-columns: repeat(2, 192px);
+    justify-content: center;
+  }
+  
+}
+
+@media (min-width: 767px) {
+  .home__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-end;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+}
