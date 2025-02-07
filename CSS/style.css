@@ -266,7 +266,6 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
   align-items: center;
   gap: 1.5rem;
-  margin-bottom: 2.5rem;
 }
 
 .sobre h2,p {
@@ -289,6 +288,7 @@ header {
   display: flex;
   justify-content: center;
   z-index: 0;
+  margin-bottom: 1.2rem;
 }
 
 .contact__orbe {
@@ -313,7 +313,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.25rem .75rem;
-  margin-bottom: 5.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .contact__card-title {
@@ -369,9 +369,8 @@ header {
 
 .footer {
   background-color: #483332;
-  padding: 2rem;
   text-align: center;
-  display: none;
+  padding-bottom: 7rem;
 }
 
 .logo {
