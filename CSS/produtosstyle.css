@@ -57,7 +57,7 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  background-color: #7a818e;
 }
 
 h1, h2, h3 {
@@ -275,8 +275,20 @@ header {
 }
 
 
+.sobre {
+  border: 6mm ridge var(--fourth-color);
+  background-color: var(--fourth-color);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  gap: 1.5rem;
+}
 
-
+.sobre h2,p {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
 
 
@@ -289,10 +301,11 @@ header {
 .slider-container {
   position: relative;
   width: 100%;
-  max-width: 800px;
+  background-color: white;
   margin: auto;
   overflow: hidden;
   border-radius: 10px;
+  padding: 10px;
 }
 
 .main-image {
@@ -311,6 +324,7 @@ header {
   padding: 10px;
   cursor: pointer;
   z-index: 10;
+  font-size: 1rem;
 }
 
 .nav-button.prev {
@@ -339,3 +353,47 @@ header {
 .thumbnail.active, .thumbnail:hover {
   opacity: 1;
 }
+
+
+
+
+
+table {
+  border: 2px solid var(--text2-color);
+  background: #464B53;
+  display: block;
+  color: var(--text2-color);
+  font-size: 1rem;
+  padding: 5px 0;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+table tr th{
+  text-align: left;
+  line-height: 2rem;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+table tr td {
+  padding-right: 20px;
+}
+
+table tr:nth-of-type(even) {
+  background-color: #696e79;
+}
+
+.price {
+  font-size: 2rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.local {
+  font-size: 1rem;
+  color: #fdf2e9;
+  margin-bottom: 25px;
+  padding-left: 5px;
+}
+

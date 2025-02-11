@@ -128,7 +128,16 @@
     grid-template-columns: repeat(2, 192px);
     justify-content: center;
   }
+
+  .thumbnail {
+    width: 70px;
+    height: 46px;
+    margin: 5px;
+  }
   
+  .nav-button {
+    font-size: 1.1rem;
+  }
 }
 
 @media (min-width: 767px) {
@@ -141,6 +150,17 @@
 
   .popular__container {
     margin: 0 3rem;
+  }
+
+  .thumbnail {
+    width: 80px;
+    height: 53px;
+    margin: 5px;
+  }
+
+  .nav-button {
+    font-size: 1.2rem;
+    padding: 0.7rem;
   }
 }
 
@@ -168,7 +188,17 @@
   .popular__description {
     font-size: 1.1rem;
   }
- 
+
+  .thumbnail {
+    width: 90px;
+    height: 60px;
+    margin: 5px;
+  }
+
+  .nav-button {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
 }
 
 @media (min-width: 1023px) {
@@ -227,5 +257,16 @@
   .footer {
     padding-top: 10px;
     background: linear-gradient(0deg, #654745, #483332);
+  }
+
+  .thumbnail {
+    width: 100px;
+    height: 66px;
+    margin: 5px;
+  }
+
+  .nav-button {
+    font-size: 1.4rem;
+    padding: 1.2rem;
   }
 }
