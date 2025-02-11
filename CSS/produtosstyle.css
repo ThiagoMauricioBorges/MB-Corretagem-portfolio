@@ -397,3 +397,8 @@ table tr:nth-of-type(even) {
   padding-left: 5px;
 }
 
+.house__title {
+  color: #fdf2e9;
+  text-align: center;
+  padding: 30px;
+}
