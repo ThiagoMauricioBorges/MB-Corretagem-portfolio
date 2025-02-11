@@ -5,7 +5,7 @@
   --text-color: #CF8F48;
   --fourth-color: #373B40;
   --text2-color: #fdf2e9;
-  --text3-color2: #BF8C60;
+  --text3-color2: #bf8c60;
 
   /*FONT SIZE*/
   --biggest-font-size: 2.25rem;
@@ -266,6 +266,7 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
   align-items: center;
   gap: 1.5rem;
+  padding: 2rem;
 }
 
 .sobre h2,p {
@@ -388,4 +389,18 @@ header {
   color: white;
   margin-top: 1rem;
   text-align: center;
+}
+
+.eu i {
+  color: #fdf2e9;
+  font-size: 1.2rem;
+  padding: 7px;
+}
+
+.eu a {
+  color: #fdf2e9;
+}
+
+.eu a:hover {
+  color: #CF8F48;
 }

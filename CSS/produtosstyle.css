@@ -402,3 +402,18 @@ table tr:nth-of-type(even) {
   text-align: center;
   padding: 30px;
 }
+
+
+.eu i {
+  color: #fdf2e9;
+  font-size: 1.2rem;
+  padding: 7px;
+}
+
+.eu a {
+  color: #fdf2e9;
+}
+
+.eu a:hover {
+  color: #CF8F48;
+}
