@@ -354,34 +354,67 @@ document.addEventListener("DOMContentLoaded", function () {
             titulo: "Casa duplex a 5 minutos do centro de Petrópolis!", 
             preco: "750.000", 
             localizacao: "Valparaíso, Petrópolis - RJ", 
-            imagemPrincipal: "img/valparaiso1.jpeg",
-            imagens: ["img/valparaiso1.jpeg", "img/valparaiso2.jpeg", "img/valparaiso3.jpeg", "img/valparaiso4.jpeg", "img/valparaiso5.jpeg", "img/valparaiso6.jpeg"], 
+            imagemPrincipal: "img/casas/1/valparaiso1.jpeg",
+            imagens: ["img/casas/1/valparaiso1.jpeg", "img/casas/1/valparaiso2.jpeg", "img/casas/1/valparaiso3.jpeg", "img/casas/1/valparaiso4.jpeg", "img/casas/1/valparaiso5.jpeg", "img/casas/1/valparaiso6.jpeg"], 
             quartos: 3, 
             banheiros: 2, 
             garagem: 4, 
             diferencial: "Varanda na casa Toda" 
         },
         2: { 
-            titulo: "Apartamento Moderno", 
-            preco: "350.000", 
-            localizacao: "São Paulo, SP", 
-            imagemPrincipal: "img/popular2.jpg",
-            imagens: ["img/popular1.jpg", "img/popular2.jpg", "img/popular3.jpg"], 
-            quartos: 2, 
-            banheiros: 1, 
+            titulo: "Casa charmosa e cercada pela natureza! A 5 minutos de Itaipava", 
+            preco: "500.000", 
+            localizacao: "Pedro do Rio, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/2/principal-pedrodorio.jpeg",
+            imagens: ["img/casas/2/principal-pedrodorio.jpeg", "img/casas/2/pedrodorio1.jpeg", "img/casas/2/pedrodorio2.jpeg", "img/casas/2/pedrodorio3.jpeg", "img/casas/2/pedrodorio4.jpeg"], 
+            quartos: 3, 
+            banheiros: 2, 
             garagem: 1, 
-            diferencial: "80m²" 
+            diferencial: "piscina e natureza" 
         },
         3: { 
-            titulo: "Apartamento Moderno", 
-            preco: "350.000", 
-            localizacao: "São Paulo, SP", 
-            imagemPrincipal: "img/popular2.jpg",
-            imagens: ["img/popular1.jpg", "img/popular2.jpg", "img/popular3.jpg"], 
+            titulo: "Casa ensolarada e arejada", 
+            preco: "250.000", 
+            localizacao: "Cascatinha, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/3/principalcascatinha.jpeg",
+            imagens: ["img/casas/3/principalcascatinha.jpeg", "img/casas/3/cascatinha1.jpeg", "img/casas/3/cascatinha2.jpeg", "img/casas/3/cascatinha3.jpeg", "img/casas/3/cascatinha4.jpeg"], 
+            quartos: 2, 
+            banheiros: 2, 
+            garagem: 1, 
+            diferencial: "Rua tranquila" 
+        },
+        4: { 
+            titulo: "Apartamento recém reformado", 
+            preco: "450.000", 
+            localizacao: "Centro, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/4/principalcentro.jpeg",
+            imagens: ["img/casas/4/principalcentro.jpeg", "img/casas/4/centro1.jpeg", "img/casas/4/centro2.jpeg", "img/casas/4/centro3.jpeg", "img/casas/4/centro4.jpeg", "img/casas/4/centro5.jpeg", "img/casas/4/centro6.jpeg", "img/casas/4/centro8.jpeg"], 
             quartos: 2, 
             banheiros: 1, 
             garagem: 1, 
-            diferencial: "80m²" 
+            diferencial: "excelente localização" 
+        },
+        5: { 
+            titulo: "Casa com 2 moradias", 
+            preco: "270.000", 
+            localizacao: "Cascatinha, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/5/principalcascatinha.jpeg",
+            imagens: ["img/casas/5/principalcascatinha.jpeg", "img/casas/5/cascatinha1.jpeg", "img/casas/5/cascatinha2.jpeg", "img/casas/5/cascatinha3.jpeg","img/casas/5/cascatinha4.jpeg","img/casas/5/cascatinha5.jpeg","img/casas/5/cascatinha6.jpeg","img/casas/5/cascatinha7.jpeg"], 
+            quartos: 3, 
+            banheiros: 3, 
+            garagem: 0, 
+            diferencial: "Terreno para construir" 
+        },
+        6: { 
+            titulo: "Casa tranquila e segura", 
+            preco: "250.000", 
+            localizacao: "itamaraty, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/6/principalitamaraty.jpeg",
+            imagens: ["img/casas/6/principalitamaraty.jpeg", "img/casas/6/itamaraty1.jpeg", "img/casas/6/itamaraty2.jpeg", "img/casas/6/itamaraty3.jpeg", "img/casas/6/itamaraty4.jpeg", "img/casas/6/itamaraty5.jpeg", "img/casas/6/itamaraty6.jpeg"], 
+            quartos: 2, 
+            banheiros: 1, 
+            garagem: 0, 
+            diferencial: "Linda Varanda" 
         }
         
     };
@@ -404,7 +437,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector("table").innerHTML = `
             <tr><th scope="row">Quartos</th><td>${prop.quartos}</td></tr>
             <tr><th scope="row">Banheiros</th><td>${prop.banheiros}</td></tr>
-            <tr><th scope="row">Vagas na Garagem</th><td>${prop.garagem}</td></tr>
+            <tr><th scope="row">Garagem</th><td>${prop.garagem}</td></tr>
             <tr><th scope="row">Diferencial</th><td>${prop.diferencial}</td></tr>
         `;
   

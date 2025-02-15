@@ -217,13 +217,14 @@ header {
   background-color: #464B53;
   margin: 0 auto;
   transition: .4s;
+  height: 420px;
 }
 
 .popular__img {
   border-radius: 1rem;
   margin-bottom: 1rem;
-  /* width: 100%;
-  height: 50%; */
+  width: 100%;
+  height: 60%;
 }
 
 

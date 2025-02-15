@@ -115,10 +115,10 @@
     margin: .6rem;
   }
 
-  .popular__card:last-child {
+  /* .popular__card:last-child {
     flex: 0 1 50%;
     margin: 0 auto;
-  }
+  } */
 
   .nav__menu {
     width: 80%;
@@ -187,6 +187,10 @@
 
   .popular__description {
     font-size: 1.1rem;
+  }
+
+  .popular__card {
+    height: 520px;
   }
 
   .thumbnail {
