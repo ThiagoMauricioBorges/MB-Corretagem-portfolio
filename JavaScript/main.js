@@ -408,15 +408,37 @@ document.addEventListener("DOMContentLoaded", function () {
         6: { 
             titulo: "Casa tranquila e segura", 
             preco: "250.000", 
-            localizacao: "itamaraty, Petrópolis - RJ", 
+            localizacao: "itamarati, Petrópolis - RJ", 
             imagemPrincipal: "img/casas/6/principalitamaraty.jpeg",
             imagens: ["img/casas/6/principalitamaraty.jpeg", "img/casas/6/itamaraty1.jpeg", "img/casas/6/itamaraty2.jpeg", "img/casas/6/itamaraty3.jpeg", "img/casas/6/itamaraty4.jpeg", "img/casas/6/itamaraty5.jpeg", "img/casas/6/itamaraty6.jpeg"], 
             quartos: 2, 
             banheiros: 1, 
             garagem: 0, 
             diferencial: "Linda Varanda" 
-        }
-        
+        },
+        7: { 
+            titulo: "Lindo apartamento", 
+            preco: "380.000", 
+            localizacao: "Nogueira, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/7/principalcorreias.jpeg",
+            imagens: ["img/casas/7/principalcorreias.jpeg", "img/casas/7/correias1.jpeg", "img/casas/7/correias2.jpeg", "img/casas/7/correias3.jpeg", "img/casas/7/correias4.jpeg", "img/casas/7/correias5.jpeg", "img/casas/7/correias6.jpeg", "img/casas/7/correias7.jpeg"], 
+            quartos: 2, 
+            banheiros: 1, 
+            garagem: 1, 
+            diferencial: "Ônibus na porta" 
+        },
+        8: { 
+            titulo: "Lindo sítio a 20 min de Secretário", 
+            preco: "240.000", 
+            localizacao: "Sardoal, Paraíba do sul - RJ", 
+            imagemPrincipal: "img/casas/8/principalsardual.jpeg",
+            imagens: ["img/casas/8/principalsardual.jpeg", "img/casas/8/sardual1.jpeg", "img/casas/8/sardual2.jpeg", "img/casas/8/sardual3.jpeg", "img/casas/8/sardual4.jpeg", "img/casas/8/sardual5.jpeg"], 
+            quartos: 1, 
+            banheiros: 1, 
+            garagem: 1, 
+            diferencial: "Piscina e natureza" 
+        },
+
     };
   
     function getParametroURL(nome) {
