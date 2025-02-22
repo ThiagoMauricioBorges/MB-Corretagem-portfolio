@@ -438,6 +438,28 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: 1, 
             diferencial: "Piscina e natureza" 
         },
+        9: { 
+            titulo: "Casa charmosa a 40 min de Três Rios", 
+            preco: "450.000", 
+            localizacao: "Santana do deserto, Minas Gerais - MG", 
+            imagemPrincipal: "img/casas/9/principalsantana.jpeg",
+            imagens: ["img/casas/9/principalsantana.jpeg", "img/casas/9/santana1.jpeg", "img/casas/9/santana2.jpeg", "img/casas/9/santana3.jpeg", "img/casas/9/santana4.jpeg", "img/casas/9/santana5.jpeg", "img/casas/9/santana6.jpeg", "img/casas/9/santana7.jpeg", "img/casas/9/santana8.jpeg"], 
+            quartos: 3, 
+            banheiros: 2, 
+            garagem: 1, 
+            diferencial: "Terreno" 
+        },
+        10: { 
+            titulo: "Terreno espaçoso no bairro da Posse", 
+            preco: "100.000", 
+            localizacao: "Posse, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/10/principalterreno.jpeg",
+            imagens: ["img/casas/10/principalterreno.jpeg", "img/casas/10/terreno1.jpeg", "img/casas/10/terreno2.jpeg", "img/casas/10/terreno3.jpeg",], 
+            quartos: 0, 
+            banheiros: 0, 
+            garagem: 0, 
+            diferencial: "Espaço" 
+        },
 
     };
   
