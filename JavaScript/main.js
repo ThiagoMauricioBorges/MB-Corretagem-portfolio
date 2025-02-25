@@ -460,6 +460,28 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: 0, 
             diferencial: "Espaço" 
         },
+        11: { 
+            titulo: "Lindo terreno no bonfim", 
+            preco: "280.000", 
+            localizacao: "Bonfim, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/11/principalterreno.jpeg",
+            imagens: ["img/casas/11/principalterreno.jpeg", "img/casas/11/terreno1.jpeg", "img/casas/11/terreno2.jpeg", "img/casas/11/terreno3.jpeg","img/casas/11/terreno4.jpeg","img/casas/11/terreno5.jpeg", "img/casas/11/terreno6.jpeg", "img/casas/11/terreno7.jpeg", "img/casas/11/terreno8.jpeg", "img/casas/11/terreno9.jpeg"], 
+            quartos: 0, 
+            banheiros: 0, 
+            garagem: 0, 
+            diferencial: "Espaço" 
+        },
+        12: { 
+            titulo: "Lindo terreno no bonfim", 
+            preco: "280.000", 
+            localizacao: "Bonfim, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/11/principalterreno.jpeg",
+            imagens: ["img/casas/11/principalterreno.jpeg", "img/casas/11/terreno1.jpeg", "img/casas/11/terreno2.jpeg", "img/casas/11/terreno3.jpeg","img/casas/11/terreno4.jpeg","img/casas/11/terreno5.jpeg", "img/casas/11/terreno6.jpeg", "img/casas/11/terreno7.jpeg", "img/casas/11/terreno8.jpeg", "img/casas/11/terreno9.jpeg"], 
+            quartos: 0, 
+            banheiros: 0, 
+            garagem: 0, 
+            diferencial: "Espaço" 
+        },
 
     };
   
