@@ -472,15 +472,48 @@ document.addEventListener("DOMContentLoaded", function () {
             diferencial: "Espaço" 
         },
         12: { 
-            titulo: "Lindo terreno no bonfim", 
-            preco: "280.000", 
-            localizacao: "Bonfim, Petrópolis - RJ", 
-            imagemPrincipal: "img/casas/11/principalterreno.jpeg",
-            imagens: ["img/casas/11/principalterreno.jpeg", "img/casas/11/terreno1.jpeg", "img/casas/11/terreno2.jpeg", "img/casas/11/terreno3.jpeg","img/casas/11/terreno4.jpeg","img/casas/11/terreno5.jpeg", "img/casas/11/terreno6.jpeg", "img/casas/11/terreno7.jpeg", "img/casas/11/terreno8.jpeg", "img/casas/11/terreno9.jpeg"], 
-            quartos: 0, 
-            banheiros: 0, 
-            garagem: 0, 
-            diferencial: "Espaço" 
+            titulo: "Apartamento aldeia das águas", 
+            preco: "220.000", 
+            localizacao: "Barra do Piraí, Volta Redonda - RJ", 
+            imagemPrincipal: "img/casas/12/principalaldeia.jpeg",
+            imagens: ["img/casas/12/principalaldeia.jpeg", "img/casas/12/aldeia1.jpeg", "img/casas/12/aldeia2.jpeg", "img/casas/12/aldeia3.jpeg", "img/casas/12/aldeia4.jpeg", "img/casas/12/aldeia5.jpeg", "img/casas/12/aldeia6.jpeg", "img/casas/12/aldeia7.jpeg", "img/casas/12/aldeia8.jpeg", "img/casas/12/aldeia9.jpeg"], 
+            quartos: 1, 
+            banheiros: 1, 
+            garagem: "Sim", 
+            diferencial: "Parque aquático" 
+        },
+        13: { 
+            titulo: "Casa Mirante do sol nascente", 
+            preco: "1.600.000", 
+            localizacao: "Itaipava, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/13/principalitaipava.jpeg",
+            imagens: ["img/casas/13/principalitaipava.jpeg","img/casas/13/itaipava1.jpeg","img/casas/13/itaipava2.jpeg","img/casas/13/itaipava3.jpeg", "img/casas/13/itaipava4.jpeg","img/casas/13/itaipava5.jpeg","img/casas/13/itaipava6.jpeg","img/casas/13/itaipava7.jpeg","img/casas/13/itaipava8.jpeg","img/casas/13/itaipava9.jpeg","img/casas/13/itaipava10.jpeg","img/casas/13/itaipava11.jpeg","img/casas/13/itaipava12.jpeg","img/casas/13/itaipava13.jpeg","img/casas/13/itaipava14.jpeg","img/casas/13/itaipava15.jpeg","img/casas/13/itaipava16.jpeg","img/casas/13/itaipava17.jpeg","img/casas/13/itaipava18.jpeg",], 
+            quartos: 3, 
+            banheiros: 2, 
+            garagem: "Sim", 
+            diferencial: "Vista incrivel" 
+        },
+        14: { 
+            titulo: "Terreno Carangola", 
+            preco: "1.000.000", 
+            localizacao: "Carangola, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/14/principal.jpeg",
+            imagens: ["img/casas/14/principal.jpeg","img/casas/14/terreno.jpeg",], 
+            quartos: "", 
+            banheiros: "", 
+            garagem: "", 
+            diferencial: "4.000m²" 
+        },
+        15: { 
+            titulo: "Terreno Pedro do Rio", 
+            preco: "500.000", 
+            localizacao: "Pedro do Rio, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/15/principal.jpeg",
+            imagens: ["img/casas/15/principal.jpeg","img/casas/15/terreno1.jpeg","img/casas/15/terreno2.jpeg","img/casas/15/terreno3.jpeg"], 
+            quartos: "", 
+            banheiros: "", 
+            garagem: "", 
+            diferencial: "1.900m²" 
         },
 
     };
