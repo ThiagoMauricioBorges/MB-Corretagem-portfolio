@@ -515,6 +515,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "", 
             diferencial: "1.900m²" 
         },
+        16: { 
+            titulo: "Casa a venda no carangola", 
+            preco: "495.000", 
+            localizacao: "Carangola, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/16/principal.jpeg",
+            imagens: ["img/casas/16/principal.jpeg","img/casas/16/carangola1.jpeg","img/casas/16/carangola2.jpeg","img/casas/16/carangola3.jpeg","img/casas/16/carangola4.jpeg","img/casas/16/carangola5.jpeg","img/casas/16/carangola6.jpeg","img/casas/16/carangola7.jpeg","img/casas/16/carangola8.jpeg","img/casas/16/carangola9.jpeg","img/casas/16/carangola10.jpeg","img/casas/16/carangola11.jpeg","img/casas/16/carangola12.jpeg","img/casas/16/carangola13.jpeg","img/casas/16/carangola14.jpeg","img/casas/16/carangola15.jpeg","img/casas/16/carangola16.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "6 carros", 
+            diferencial: "quintal" 
+        },
 
     };
   
