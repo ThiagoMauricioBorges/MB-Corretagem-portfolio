@@ -526,6 +526,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "6 carros", 
             diferencial: "quintal" 
         },
+        17: { 
+            titulo: "Apartamento no centro", 
+            preco: "680.000", 
+            localizacao: "Centro, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/17/principalcentro.jpeg",
+            imagens: ["img/casas/17/principalcentro.jpeg","img/casas/17/centro1.jpeg","img/casas/17/centro2real.jpeg","img/casas/17/centro3.jpeg","img/casas/17/centro4.jpeg","img/casas/17/centro2.jpeg","img/casas/17/centro5.jpeg", "img/casas/17/centro6.jpeg", "img/casas/17/centro7.jpeg", "img/casas/17/centro8.jpeg", "img/casas/17/centro9.jpeg", "img/casas/17/centro10.jpeg", "img/casas/17/centro11.jpeg", "img/casas/17/centro12.jpeg", "img/casas/17/centro13.jpeg"], 
+            quartos: "3", 
+            banheiros: "1", 
+            garagem: "sim", 
+            diferencial: "localização" 
+        },
 
     };
   
