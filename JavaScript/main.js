@@ -537,6 +537,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "localização" 
         },
+        18: { 
+            titulo: "Apartamento no centro", 
+            preco: "210.000", 
+            localizacao: "Samambaia, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/18/principalsamambaia.jpeg",
+            imagens: ["img/casas/18/principalsamambaia.jpeg","img/casas/18/samambaia1.jpeg","img/casas/18/samambaia2.jpeg","img/casas/18/samambaia3.jpeg","img/casas/18/samambaia4.jpeg","img/casas/18/samambaia5.jpeg","img/casas/18/samambaia6.jpeg", "img/casas/18/samambaia7.jpeg", "img/casas/18/samambaia8.jpeg", "img/casas/18/samambaia9.jpeg", "img/casas/18/samambaia10.jpeg", "img/casas/18/samambaia11.jpeg", "img/casas/18/samambaia12.jpeg", "img/casas/18/samambaia13.jpeg", "img/casas/18/samambaia14.jpeg", "img/casas/18/samambaia15.jpeg"], 
+            quartos: "3", 
+            banheiros: "1", 
+            garagem: "sim", 
+            diferencial: "localização" 
+        },
 
     };
   
