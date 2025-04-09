@@ -548,6 +548,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "localização" 
         },
+        19: { 
+            titulo: "Casa com vista ampla", 
+            preco: "210.000", 
+            localizacao: "Samambaia, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/19/principal.jpeg",
+            imagens: ["img/casas/19/principal.jpeg","img/casas/19/1.jpeg","img/casas/19/2.jpeg","img/casas/19/3.jpeg","img/casas/19/4.jpeg", "img/casas/19/5.jpeg", "img/casas/19/6.jpeg", "img/casas/19/7.jpeg", "img/casas/19/8.jpeg", "img/casas/19/9.jpeg", "img/casas/19/10.jpeg", "img/casas/19/11.jpeg", "img/casas/19/12.jpeg", "img/casas/19/13.jpeg"], 
+            quartos: "3", 
+            banheiros: "1", 
+            garagem: "sim", 
+            diferencial: "vista" 
+        },
 
     };
   
