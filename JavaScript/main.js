@@ -559,7 +559,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "vista" 
         },
-
+        20: { 
+            titulo: "Linda Chácara com 4 alqueires", 
+            preco: "2.300.000", 
+            localizacao: "Samambaia, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/20/principal.jpeg",
+            imagens: ["img/casas/20/principal.jpeg","img/casas/20/1.jpeg","img/casas/20/2.jpeg","img/casas/20/3.jpeg","img/casas/20/4.jpeg", "img/casas/20/5.jpeg", "img/casas/20/6.jpeg", "img/casas/20/7.jpeg", "img/casas/20/8.jpeg", "img/casas/20/9.jpeg", "img/casas/20/10.jpeg", "img/casas/20/11.jpeg", "img/casas/20/12.jpeg", "img/casas/20/13.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "Terreno" 
+        },
     };
   
     function getParametroURL(nome) {
