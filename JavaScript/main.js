@@ -572,7 +572,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         21: { 
             titulo: "Casa com 3 quartos", 
-            preco: "300.000", 
+            preco: "780.000", 
             localizacao: "Humberto Hovigat, Petrópolis - RJ", 
             imagemPrincipal: "img/casas/21/principal.jpeg",
             imagens: ["img/casas/21/principal.jpeg","img/casas/21/1.jpeg","img/casas/21/2.jpeg","img/casas/21/3.jpeg","img/casas/21/4.jpeg", "img/casas/21/5.jpeg", "img/casas/21/6.jpeg", "img/casas/21/7.jpeg", "img/casas/21/8.jpeg", "img/casas/21/9.jpeg", "img/casas/21/10.jpeg", "img/casas/21/11.jpeg", "img/casas/21/12.jpeg", "img/casas/21/13.jpeg"], 
