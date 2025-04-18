@@ -581,6 +581,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "Terreno" 
         },
+        22: { 
+            titulo: "2 casas mais amplo Terraço", 
+            preco: "270.000", 
+            localizacao: "Quarteirão brasileiro, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/22/principal.jpeg",
+            imagens: ["img/casas/22/principal.jpeg","img/casas/22/1.jpeg","img/casas/22/2.jpeg","img/casas/22/3.jpeg","img/casas/22/4.jpeg", "img/casas/22/5.jpeg", "img/casas/22/6.jpeg", "img/casas/22/7.jpeg", "img/casas/22/8.jpeg", "img/casas/22/9.jpeg", "img/casas/22/10.jpeg", "img/casas/22/11.jpeg", "img/casas/22/12.jpeg", "img/casas/22/13.jpeg", "img/casas/22/14.jpeg" , "img/casas/22/15.jpeg" ], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "2 casas" 
+        },
     };
   
     function getParametroURL(nome) {
