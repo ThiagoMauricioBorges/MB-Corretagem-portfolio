@@ -592,6 +592,50 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "2 casas" 
         },
+        23: { 
+            titulo: "Casa no bigen", 
+            preco: "1.500.000", 
+            localizacao: "Bingen, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/23/principal.jpeg",
+            imagens: ["img/casas/23/principal.jpeg","img/casas/23/1.jpeg","img/casas/23/2.jpeg","img/casas/23/3.jpeg","img/casas/23/4.jpeg", "img/casas/23/5.jpeg", "img/casas/23/6.jpeg", "img/casas/23/7.jpeg", "img/casas/23/8.jpeg", "img/casas/23/9.jpeg", "img/casas/23/10.jpeg", "img/casas/23/11.jpeg", "img/casas/23/12.jpeg", "img/casas/23/13.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "bairro" 
+        },
+        24: { 
+            titulo: "Casa Laranja", 
+            preco: "450.000", 
+            localizacao: "Bingen, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/24/principal.jpeg",
+            imagens: ["img/casas/24/principal.jpeg","img/casas/24/1.jpeg","img/casas/24/2.jpeg","img/casas/24/3.jpeg","img/casas/24/4.jpeg", "img/casas/24/5.jpeg", "img/casas/24/6.jpeg"], 
+            quartos: "2", 
+            banheiros: "1", 
+            garagem: "sim", 
+            diferencial: "bairro" 
+        },
+        25: { 
+            titulo: "Casa com dois pisos", 
+            preco: "870.000", 
+            localizacao: "Samambaia, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/25/principal.jpeg",
+            imagens: ["img/casas/25/principal.jpeg","img/casas/25/1.jpeg","img/casas/25/2.jpeg","img/casas/25/3.jpeg","img/casas/25/4.jpeg", "img/casas/25/5.jpeg", "img/casas/25/6.jpeg", "img/casas/25/7.jpeg", "img/casas/25/8.jpeg", "img/casas/25/9.jpeg", "img/casas/25/10.jpeg", "img/casas/25/11.jpeg", "img/casas/25/12.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "terreno" 
+        },
+        26: { 
+            titulo: "Casa no castelo sao manuel", 
+            preco: "300.000", 
+            localizacao: "Castelo São Manuel, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/26/principal.jpeg",
+            imagens: ["img/casas/26/principal.jpeg","img/casas/26/1.jpeg","img/casas/26/2.jpeg","img/casas/26/3.jpeg","img/casas/26/4.jpeg", "img/casas/26/5.jpeg", "img/casas/26/6.jpeg", "img/casas/26/7.jpeg", "img/casas/26/8.jpeg", "img/casas/26/9.jpeg", "img/casas/26/10.jpeg", "img/casas/26/11.jpeg", "img/casas/26/12.jpeg", "img/casas/26/13.jpeg", "img/casas/26/14.jpeg", "img/casas/26/15.jpeg"], 
+            quartos: "2", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "bairro" 
+        },
     };
   
     function getParametroURL(nome) {
