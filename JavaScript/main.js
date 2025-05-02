@@ -636,6 +636,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "bairro" 
         },
+        27: { 
+            titulo: "Linda Casa na Serra velha", 
+            preco: "600.000", 
+            localizacao: "Serra Velha, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/27/principal.jpeg",
+            imagens: ["img/casas/27/principal.jpeg","img/casas/27/1.jpeg","img/casas/27/2.jpeg","img/casas/27/3.jpeg","img/casas/27/4.jpeg", "img/casas/27/5.jpeg", "img/casas/27/6.jpeg", "img/casas/27/7.jpeg", "img/casas/27/8.jpeg", "img/casas/27/9.jpeg", "img/casas/27/10.jpeg", "img/casas/27/11.jpeg", "img/casas/27/12.jpeg", "img/casas/27/13.jpeg", "img/casas/27/14.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "vista" 
+        },
     };
   
     function getParametroURL(nome) {
