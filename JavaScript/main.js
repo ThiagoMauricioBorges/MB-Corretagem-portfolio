@@ -647,6 +647,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "vista" 
         },
+        28: { 
+            titulo: "Casa no Nova Cascatinha", 
+            preco: "290.000", 
+            localizacao: "Nova Cascatinha, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/28/principal.jpeg",
+            imagens: ["img/casas/28/principal.jpeg","img/casas/28/1.jpeg","img/casas/28/2.jpeg","img/casas/28/3.jpeg","img/casas/28/4.jpeg", "img/casas/28/5.jpeg", "img/casas/28/6.jpeg", "img/casas/28/7.jpeg", "img/casas/28/8.jpeg", "img/casas/28/9.jpeg", "img/casas/28/10.jpeg", "img/casas/28/11.jpeg", "img/casas/28/12.jpeg", "img/casas/28/13.jpeg", "img/casas/28/14.jpeg", "img/casas/28/15.jpeg", "img/casas/28/16.jpeg", "img/casas/28/17.jpeg"], 
+            quartos: "2", 
+            banheiros: "1", 
+            garagem: "sim", 
+            diferencial: "vista" 
+        },
     };
   
     function getParametroURL(nome) {
