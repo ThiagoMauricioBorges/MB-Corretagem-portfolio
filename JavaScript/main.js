@@ -658,6 +658,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "vista" 
         },
+        29: { 
+            titulo: "Casa a venda em Cascatinha", 
+            preco: "690.000", 
+            localizacao: "Cascatinha, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/29/principal.jpeg",
+            imagens: ["img/casas/29/principal.jpeg","img/casas/29/1.jpeg","img/casas/29/2.jpeg","img/casas/29/3.jpeg","img/casas/28/4.jpeg", "img/casas/29/5.jpeg", "img/casas/29/6.jpeg", "img/casas/29/7.jpeg", "img/casas/29/8.jpeg", "img/casas/29/9.jpeg", "img/casas/29/10.jpeg", "img/casas/29/11.jpeg", "img/casas/29/12.jpeg", "img/casas/29/13.jpeg", "img/casas/29/14.jpeg", "img/casas/29/15.jpeg", "img/casas/29/16.jpeg", "img/casas/29/17.jpeg", "img/casas/29/18.jpeg", "img/casas/29/19.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "piscina" 
+        },
     };
   
     function getParametroURL(nome) {
