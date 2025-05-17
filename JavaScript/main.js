@@ -669,6 +669,18 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "piscina" 
         },
+
+        30: { 
+            titulo: "Casa a venda no Quissamã", 
+            preco: "580.000", 
+            localizacao: "Quissamã, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/30/principal.jpeg",
+            imagens: ["img/casas/30/principal.jpeg","img/casas/30/1.jpeg","img/casas/30/2.jpeg","img/casas/30/3.jpeg","img/casas/30/4.jpeg", "img/casas/30/5.jpeg", "img/casas/30/6.jpeg", "img/casas/30/7.jpeg", "img/casas/30/8.jpeg", "img/casas/30/9.jpeg", "img/casas/30/10.jpeg", "img/casas/30/11.jpeg", "img/casas/30/12.jpeg", "img/casas/30/13.jpeg", "img/casas/30/14.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "localização" 
+        },        
     };
   
     function getParametroURL(nome) {
