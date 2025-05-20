@@ -680,7 +680,18 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "2", 
             garagem: "sim", 
             diferencial: "localização" 
-        },        
+        },   
+        31: { 
+            titulo: "Casa a venda em Secretario", 
+            preco: "1.200.000", 
+            localizacao: "Secretario, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/31/principal.jpeg",
+            imagens: ["img/casas/31/principal.jpeg","img/casas/31/1.jpeg","img/casas/31/2.jpeg","img/casas/31/3.jpeg","img/casas/31/4.jpeg", "img/casas/31/5.jpeg", "img/casas/31/6.jpeg", "img/casas/31/7.jpeg", "img/casas/31/8.jpeg", "img/casas/31/9.jpeg", "img/casas/31/10.jpeg", "img/casas/31/11.jpeg", "img/casas/31/12.jpeg", "img/casas/31/13.jpeg", "img/casas/31/14.jpeg", "img/casas/31/15.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "terreno" 
+        },              
     };
   
     function getParametroURL(nome) {
