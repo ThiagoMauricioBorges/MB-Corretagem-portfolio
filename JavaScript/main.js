@@ -691,7 +691,40 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "2", 
             garagem: "sim", 
             diferencial: "terreno" 
-        },              
+        }, 
+        32: { 
+            titulo: "Casa a venda em Taquara", 
+            preco: "200.000", 
+            localizacao: "Quitandinha, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/32/principal.jpeg",
+            imagens: ["img/casas/32/principal.jpeg","img/casas/32/1.jpeg","img/casas/32/2.jpeg","img/casas/32/3.jpeg","img/casas/32/4.jpeg", "img/casas/32/5.jpeg", "img/casas/32/6.jpeg", "img/casas/32/7.jpeg"], 
+            quartos: "2", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "garagem" 
+        },   
+        33: { 
+            titulo: "Casa em área nobre", 
+            preco: "950.000", 
+            localizacao: "Cascatinha, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/33/principal.jpeg",
+            imagens: ["img/casas/33/principal.jpeg","img/casas/33/1.jpeg","img/casas/33/2.jpeg","img/casas/33/3.jpeg","img/casas/33/4.jpeg"], 
+            quartos: "5", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "localização" 
+        }, 
+        34: { 
+            titulo: "Terreno no carangola", 
+            preco: "120.000", 
+            localizacao: "Carangola, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/34/principal.jpeg",
+            imagens: ["img/casas/34/principal.jpeg","img/casas/34/1.jpeg","img/casas/34/2.jpeg","img/casas/34/3.jpeg","img/casas/34/4.jpeg","img/casas/32/5.jpeg", "img/casas/32/6.jpeg", "img/casas/32/7.jpeg"], 
+            quartos: "0", 
+            banheiros: "0", 
+            garagem: "sim", 
+            diferencial: "terreno" 
+        },                                   
     };
   
     function getParametroURL(nome) {
