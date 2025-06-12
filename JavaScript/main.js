@@ -405,17 +405,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: 0, 
             diferencial: "Terreno para construir" 
         },
-        6: { 
-            titulo: "Casa tranquila e segura", 
-            preco: "250.000", 
-            localizacao: "itamarati, Petrópolis - RJ", 
-            imagemPrincipal: "img/casas/6/principalitamaraty.jpeg",
-            imagens: ["img/casas/6/principalitamaraty.jpeg", "img/casas/6/itamaraty1.jpeg", "img/casas/6/itamaraty2.jpeg", "img/casas/6/itamaraty3.jpeg", "img/casas/6/itamaraty4.jpeg", "img/casas/6/itamaraty5.jpeg", "img/casas/6/itamaraty6.jpeg"], 
-            quartos: 2, 
-            banheiros: 1, 
-            garagem: 0, 
-            diferencial: "Linda Varanda" 
-        },
+        // 6: { 
+        //     titulo: "Casa tranquila e segura", 
+        //     preco: "250.000", 
+        //     localizacao: "itamarati, Petrópolis - RJ", 
+        //     imagemPrincipal: "img/casas/6/principalitamaraty.jpeg",
+        //     imagens: ["img/casas/6/principalitamaraty.jpeg", "img/casas/6/itamaraty1.jpeg", "img/casas/6/itamaraty2.jpeg", "img/casas/6/itamaraty3.jpeg", "img/casas/6/itamaraty4.jpeg", "img/casas/6/itamaraty5.jpeg", "img/casas/6/itamaraty6.jpeg"], 
+        //     quartos: 2, 
+        //     banheiros: 1, 
+        //     garagem: 0, 
+        //     diferencial: "Linda Varanda" 
+        // },
         7: { 
             titulo: "Lindo apartamento", 
             preco: "380.000", 
