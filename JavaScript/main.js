@@ -719,12 +719,34 @@ document.addEventListener("DOMContentLoaded", function () {
             preco: "120.000", 
             localizacao: "Carangola, Petrópolis - RJ", 
             imagemPrincipal: "img/casas/34/principal.jpeg",
-            imagens: ["img/casas/34/principal.jpeg","img/casas/34/1.jpeg","img/casas/34/2.jpeg","img/casas/34/3.jpeg","img/casas/34/4.jpeg","img/casas/32/5.jpeg", "img/casas/32/6.jpeg", "img/casas/32/7.jpeg"], 
+            imagens: ["img/casas/34/principal.jpeg","img/casas/34/1.jpeg","img/casas/34/2.jpeg","img/casas/34/3.jpeg","img/casas/34/4.jpeg","img/casas/34/5.jpeg", "img/casas/34/6.jpeg", "img/casas/34/7.jpeg"], 
             quartos: "0", 
             banheiros: "0", 
             garagem: "sim", 
             diferencial: "terreno" 
-        },                                   
+        }, 
+        35: { 
+            titulo: "Casa no Quissamã", 
+            preco: "", 
+            localizacao: "Carangola, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/35/principal.jpeg",
+            imagens: ["img/casas/35/principal.jpeg","img/casas/35/1.jpeg","img/casas/35/2.jpeg","img/casas/35/3.jpeg","img/casas/35/4.jpeg","img/casas/35/5.jpeg", "img/casas/35/6.jpeg", "img/casas/35/7.jpeg", "img/casas/35/8.jpeg", "img/casas/35/9.jpeg", "img/casas/35/10.jpeg", "img/casas/35/11.jpeg", "img/casas/35/12.jpeg", "img/casas/35/13.jpeg", "img/casas/35/14.jpeg", "img/casas/35/15.jpeg", "img/casas/35/16.jpeg"], 
+            quartos: "0", 
+            banheiros: "0", 
+            garagem: "sim", 
+            diferencial: "terreno" 
+        },  
+        36: { 
+            titulo: "Casa Humberto Rovigath", 
+            preco: "250.000", 
+            localizacao: "Humberto Rovigath, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/36/principal.jpeg",
+            imagens: ["img/casas/36/principal.jpeg","img/casas/36/1.jpeg","img/casas/36/2.jpeg","img/casas/36/3.jpeg","img/casas/36/4.jpeg","img/casas/36/5.jpeg", "img/casas/36/6.jpeg", "img/casas/36/7.jpeg", "img/casas/36/8.jpeg", "img/casas/36/9.jpeg"], 
+            quartos: "0", 
+            banheiros: "0", 
+            garagem: "sim", 
+            diferencial: "terreno" 
+        },                                                   
     };
   
     function getParametroURL(nome) {
