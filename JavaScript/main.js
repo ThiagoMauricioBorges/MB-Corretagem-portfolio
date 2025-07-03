@@ -727,7 +727,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 
         35: { 
             titulo: "Casa no Quissamã", 
-            preco: "", 
+            preco: "995.000", 
             localizacao: "Carangola, Petrópolis - RJ", 
             imagemPrincipal: "img/casas/35/principal.jpeg",
             imagens: ["img/casas/35/principal.jpeg","img/casas/35/1.jpeg","img/casas/35/2.jpeg","img/casas/35/3.jpeg","img/casas/35/4.jpeg","img/casas/35/5.jpeg", "img/casas/35/6.jpeg", "img/casas/35/7.jpeg", "img/casas/35/8.jpeg", "img/casas/35/9.jpeg", "img/casas/35/10.jpeg", "img/casas/35/11.jpeg", "img/casas/35/12.jpeg", "img/casas/35/13.jpeg", "img/casas/35/14.jpeg", "img/casas/35/15.jpeg", "img/casas/35/16.jpeg"], 
