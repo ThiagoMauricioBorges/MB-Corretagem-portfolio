@@ -746,7 +746,18 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "0", 
             garagem: "sim", 
             diferencial: "terreno" 
-        },                                                   
+        },  
+        37: { 
+            titulo: "Casa composta na mosela", 
+            preco: "700.000", 
+            localizacao: "Mosela, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/37/principal.jpeg",
+            imagens: ["img/casas/37/principal.jpeg","img/casas/37/1.jpeg","img/casas/37/2.jpeg","img/casas/37/3.jpeg","img/casas/37/4.jpeg","img/casas/37/5.jpeg", "img/casas/37/6.jpeg", "img/casas/37/7.jpeg", "img/casas/37/8.jpeg", "img/casas/37/9.jpeg","img/casas/37/10.jpeg","img/casas/37/11.jpeg","img/casas/37/12.jpeg","img/casas/37/13.jpeg","img/casas/37/14.jpeg","img/casas/37/15.jpeg","img/casas/37/16.jpeg","img/casas/37/17.jpeg","img/casas/37/18.jpeg","img/casas/37/19.jpeg"], 
+            quartos: "5", 
+            banheiros: "3", 
+            garagem: "sim", 
+            diferencial: "tamanho" 
+        }, 
     };
   
     function getParametroURL(nome) {
