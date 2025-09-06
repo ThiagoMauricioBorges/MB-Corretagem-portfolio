@@ -757,7 +757,18 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "3", 
             garagem: "sim", 
             diferencial: "tamanho" 
-        }, 
+        },
+        38: { 
+            titulo: "Linda casa composta", 
+            preco: "1.300.000", 
+            localizacao: "Humberto Hovigat, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/38/principal.jpeg",
+            imagens: ["img/casas/38/principal.jpeg","img/casas/38/1.jpeg","img/casas/38/2.jpeg","img/casas/38/3.jpeg","img/casas/38/4.jpeg","img/casas/38/5.jpeg", "img/casas/38/6.jpeg", "img/casas/38/7.jpeg", "img/casas/38/8.jpeg", "img/casas/38/9.jpeg","img/casas/38/10.jpeg","img/casas/38/11.jpeg","img/casas/38/12.jpeg","img/casas/38/13.jpeg","img/casas/38/14.jpeg","img/casas/38/15.jpeg","img/casas/38/16.jpeg","img/casas/38/17.jpeg","img/casas/38/18.jpeg","img/casas/38/19.jpeg","img/casas/38/20.jpeg"], 
+            quartos: "5", 
+            banheiros: "3", 
+            garagem: "sim", 
+            diferencial: "tamanho" 
+        },          
     };
   
     function getParametroURL(nome) {
