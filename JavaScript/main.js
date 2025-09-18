@@ -768,7 +768,18 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "3", 
             garagem: "sim", 
             diferencial: "tamanho" 
-        },          
+        },
+        39: { 
+            titulo: "Casa composta", 
+            preco: "500.000", 
+            localizacao: "Loteamento Samambaia, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/39/principal.jpeg",
+            imagens: ["img/casas/39/principal.jpeg","img/casas/39/1.jpeg","img/casas/39/2.jpeg","img/casas/39/3.jpeg","img/casas/39/4.jpeg","img/casas/39/5.jpeg", "img/casas/39/6.jpeg", "img/casas/39/7.jpeg", "img/casas/39/8.jpeg", "img/casas/39/9.jpeg","img/casas/39/10.jpeg","img/casas/39/11.jpeg"], 
+            quartos: "3", 
+            banheiros: "1", 
+            garagem: "sim", 
+            diferencial: "Garagem" 
+        },                   
     };
   
     function getParametroURL(nome) {
