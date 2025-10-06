@@ -779,7 +779,18 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "1", 
             garagem: "sim", 
             diferencial: "Garagem" 
-        },                   
+        },
+        40: { 
+            titulo: "Casa em Itaipava", 
+            preco: "320.000", 
+            localizacao: "Itaipava, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/40/principal.jpeg",
+            imagens: ["img/casas/40/principal.jpeg","img/casas/40/1.jpeg","img/casas/40/2.jpeg","img/casas/40/3.jpeg","img/casas/40/4.jpeg","img/casas/40/5.jpeg", "img/casas/40/6.jpeg", "img/casas/40/7.jpeg", "img/casas/40/8.jpeg", "img/casas/40/9.jpeg","img/casas/40/10.jpeg","img/casas/40/11.jpeg","img/casas/40/12.jpeg","img/casas/40/13.jpeg","img/casas/40/14.jpeg","img/casas/40/15.jpeg"], 
+            quartos: "3", 
+            banheiros: "1", 
+            garagem: "sim", 
+            diferencial: "Piscina" 
+        }, 
     };
   
     function getParametroURL(nome) {
