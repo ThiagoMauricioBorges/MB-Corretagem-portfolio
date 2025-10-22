@@ -790,7 +790,18 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "1", 
             garagem: "sim", 
             diferencial: "Piscina" 
-        }, 
+        },
+        41: { 
+            titulo: "Casa no bairro Esperança", 
+            preco: "499.000", 
+            localizacao: "Esperança, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/41/principal.jpeg",
+            imagens: ["img/casas/41/principal.jpeg","img/casas/41/1.jpeg","img/casas/41/2.jpeg","img/casas/41/3.jpeg","img/casas/41/4.jpeg","img/casas/41/5.jpeg", "img/casas/41/6.jpeg", "img/casas/41/7.jpeg", "img/casas/41/8.jpeg", "img/casas/41/9.jpeg","img/casas/41/10.jpeg"], 
+            quartos: "7", 
+            banheiros: "4", 
+            garagem: "sim", 
+            diferencial: "Vista" 
+        },
     };
   
     function getParametroURL(nome) {
