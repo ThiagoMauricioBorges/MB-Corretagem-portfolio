@@ -802,6 +802,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "Vista" 
         },
+        42: { 
+            titulo: "Casa no bairro Boa Vista", 
+            preco: "180.000", 
+            localizacao: "Boa Vista, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/42/principal.jpeg",
+            imagens: ["img/casas/42/principal.jpeg","img/casas/42/1.jpeg","img/casas/42/2.jpeg","img/casas/42/3.jpeg","img/casas/42/4.jpeg","img/casas/42/5.jpeg", "img/casas/42/6.jpeg", "img/casas/42/7.jpeg", "img/casas/42/8.jpeg", "img/casas/42/9.jpeg","img/casas/42/10.jpeg","img/casas/42/11.jpeg","img/casas/42/12.jpeg","img/casas/42/13.jpeg"], 
+            quartos: "2", 
+            banheiros: "1", 
+            garagem: "não", 
+            diferencial: "Valor" 
+        },
     };
   
     function getParametroURL(nome) {
