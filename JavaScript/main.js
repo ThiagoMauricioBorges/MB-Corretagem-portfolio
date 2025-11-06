@@ -813,6 +813,28 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "não", 
             diferencial: "Valor" 
         },
+        43: { 
+            titulo: "Casa no bairro Itaipava", 
+            preco: "510.000", 
+            localizacao: "Itaipava, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/43/principal.jpeg",
+            imagens: ["img/casas/43/principal.jpeg","img/casas/43/1.jpeg","img/casas/43/2.jpeg","img/casas/43/3.jpeg","img/casas/43/4.jpeg","img/casas/43/5.jpeg", "img/casas/43/6.jpeg", "img/casas/43/7.jpeg", "img/casas/43/8.jpeg", "img/casas/43/9.jpeg","img/casas/43/10.jpeg","img/casas/43/11.jpeg","img/casas/43/12.jpeg","img/casas/43/13.jpeg","img/casas/43/14.jpeg"], 
+            quartos: "5", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "Localização" 
+        },
+        44: { 
+            titulo: "Casa no bairro da Glória", 
+            preco: "350.000", 
+            localizacao: "Corrêas, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/44/principal.jpeg",
+            imagens: ["img/casas/44/principal.jpeg","img/casas/44/1.jpeg","img/casas/44/2.jpeg","img/casas/44/3.jpeg","img/casas/44/4.jpeg","img/casas/44/5.jpeg", "img/casas/44/6.jpeg", "img/casas/44/7.jpeg", "img/casas/44/8.jpeg", "img/casas/44/9.jpeg","img/casas/44/10.jpeg","img/casas/44/11.jpeg","img/casas/44/12.jpeg"], 
+            quartos: "2", 
+            banheiros: "1", 
+            garagem: "sim", 
+            diferencial: "Vista" 
+        },
     };
   
     function getParametroURL(nome) {
