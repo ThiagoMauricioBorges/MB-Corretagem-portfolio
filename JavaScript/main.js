@@ -835,6 +835,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "Vista" 
         },
+        45: { 
+            titulo: "Casa na Castelânea", 
+            preco: "1.000.000", 
+            localizacao: "Castelânea, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/45/principal.jpeg",
+            imagens: ["img/casas/45/principal.jpeg","img/casas/45/1.jpeg","img/casas/45/2.jpeg","img/casas/45/3.jpeg","img/casas/45/4.jpeg","img/casas/45/5.jpeg", "img/casas/45/6.jpeg", "img/casas/45/7.jpeg", "img/casas/45/8.jpeg", "img/casas/45/9.jpeg","img/casas/45/10.jpeg","img/casas/45/11.jpeg","img/casas/45/12.jpeg","img/casas/45/13.jpeg","img/casas/45/14.jpeg","img/casas/45/15.jpeg","img/casas/45/16.jpeg"], 
+            quartos: "4", 
+            banheiros: "3", 
+            garagem: "sim", 
+            diferencial: "Piscina" 
+        },
     };
   
     function getParametroURL(nome) {
