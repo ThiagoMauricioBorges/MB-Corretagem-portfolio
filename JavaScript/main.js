@@ -846,6 +846,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "Piscina" 
         },
+        46: { 
+            titulo: "Casa no Cascatinha", 
+            preco: "600.000", 
+            localizacao: "Cascatinha, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/46/principal.jpeg",
+            imagens: ["img/casas/46/principal.jpeg","img/casas/46/1.jpeg","img/casas/46/2.jpeg","img/casas/46/3.jpeg","img/casas/46/4.jpeg","img/casas/46/5.jpeg", "img/casas/46/6.jpeg", "img/casas/46/7.jpeg", "img/casas/46/8.jpeg", "img/casas/46/9.jpeg","img/casas/46/10.jpeg","img/casas/46/11.jpeg","img/casas/46/12.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "Localização" 
+        },
     };
   
     function getParametroURL(nome) {
