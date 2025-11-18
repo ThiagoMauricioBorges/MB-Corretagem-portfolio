@@ -857,6 +857,28 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "Localização" 
         },
+        47: { 
+            titulo: "Sítio em Areal", 
+            preco: "2.300.000", 
+            localizacao: "Areal, Areal - RJ", 
+            imagemPrincipal: "img/casas/47/principal.jpeg",
+            imagens: ["img/casas/47/principal.jpeg","img/casas/47/1.jpeg","img/casas/47/2.jpeg","img/casas/47/3.jpeg","img/casas/47/4.jpeg","img/casas/47/5.jpeg", "img/casas/47/6.jpeg", "img/casas/47/7.jpeg", "img/casas/47/8.jpeg", "img/casas/47/9.jpeg","img/casas/47/10.jpeg","img/casas/47/11.jpeg","img/casas/47/12.jpeg","img/casas/47/13.jpeg","img/casas/47/14.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "terreno" 
+        },
+        48: { 
+            titulo: "Casa a venda em Corrêas", 
+            preco: "320.000", 
+            localizacao: "Corrêas, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/48/principal.jpeg",
+            imagens: ["img/casas/48/principal.jpeg","img/casas/48/1.jpeg","img/casas/48/2.jpeg","img/casas/48/3.jpeg","img/casas/48/4.jpeg","img/casas/48/5.jpeg", "img/casas/48/6.jpeg", "img/casas/48/7.jpeg", "img/casas/48/8.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "Localização" 
+        },
     };
   
     function getParametroURL(nome) {
