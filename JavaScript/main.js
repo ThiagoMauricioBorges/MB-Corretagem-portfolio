@@ -874,10 +874,10 @@ document.addEventListener("DOMContentLoaded", function () {
             localizacao: "Corrêas, Petrópolis - RJ", 
             imagemPrincipal: "img/casas/48/principal.jpeg",
             imagens: ["img/casas/48/principal.jpeg","img/casas/48/1.jpeg","img/casas/48/2.jpeg","img/casas/48/3.jpeg","img/casas/48/4.jpeg","img/casas/48/5.jpeg", "img/casas/48/6.jpeg", "img/casas/48/7.jpeg", "img/casas/48/8.jpeg"], 
-            quartos: "3", 
+            quartos: "2", 
             banheiros: "2", 
             garagem: "sim", 
-            diferencial: "Localização" 
+            diferencial: "Terreno" 
         },
     };
   
