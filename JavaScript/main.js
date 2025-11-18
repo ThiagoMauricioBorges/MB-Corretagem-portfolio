@@ -877,7 +877,7 @@ document.addEventListener("DOMContentLoaded", function () {
             quartos: "2", 
             banheiros: "2", 
             garagem: "sim", 
-            diferencial: "Terreno" 
+            diferencial: "terreno" 
         },
     };
   
