@@ -405,17 +405,6 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: 0, 
             diferencial: "Terreno para construir" 
         },
-        // 6: { 
-        //     titulo: "Casa tranquila e segura", 
-        //     preco: "250.000", 
-        //     localizacao: "itamarati, Petrópolis - RJ", 
-        //     imagemPrincipal: "img/casas/6/principalitamaraty.jpeg",
-        //     imagens: ["img/casas/6/principalitamaraty.jpeg", "img/casas/6/itamaraty1.jpeg", "img/casas/6/itamaraty2.jpeg", "img/casas/6/itamaraty3.jpeg", "img/casas/6/itamaraty4.jpeg", "img/casas/6/itamaraty5.jpeg", "img/casas/6/itamaraty6.jpeg"], 
-        //     quartos: 2, 
-        //     banheiros: 1, 
-        //     garagem: 0, 
-        //     diferencial: "Linda Varanda" 
-        // },
         7: { 
             titulo: "Lindo apartamento", 
             preco: "380.000", 
@@ -536,28 +525,6 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "1", 
             garagem: "sim", 
             diferencial: "localização" 
-        },
-        18: { 
-            titulo: "Apartamento no centro", 
-            preco: "210.000", 
-            localizacao: "Samambaia, Petrópolis - RJ", 
-            imagemPrincipal: "img/casas/18/principalsamambaia.jpeg",
-            imagens: ["img/casas/18/principalsamambaia.jpeg","img/casas/18/samambaia1.jpeg","img/casas/18/samambaia2.jpeg","img/casas/18/samambaia3.jpeg","img/casas/18/samambaia4.jpeg","img/casas/18/samambaia5.jpeg","img/casas/18/samambaia6.jpeg", "img/casas/18/samambaia7.jpeg", "img/casas/18/samambaia8.jpeg", "img/casas/18/samambaia9.jpeg", "img/casas/18/samambaia10.jpeg", "img/casas/18/samambaia11.jpeg", "img/casas/18/samambaia12.jpeg", "img/casas/18/samambaia13.jpeg", "img/casas/18/samambaia14.jpeg", "img/casas/18/samambaia15.jpeg"], 
-            quartos: "3", 
-            banheiros: "1", 
-            garagem: "sim", 
-            diferencial: "localização" 
-        },
-        19: { 
-            titulo: "Casa com vista ampla", 
-            preco: "210.000", 
-            localizacao: "Samambaia, Petrópolis - RJ", 
-            imagemPrincipal: "img/casas/19/principal.jpeg",
-            imagens: ["img/casas/19/principal.jpeg","img/casas/19/1.jpeg","img/casas/19/2.jpeg","img/casas/19/3.jpeg","img/casas/19/4.jpeg", "img/casas/19/5.jpeg", "img/casas/19/6.jpeg", "img/casas/19/7.jpeg", "img/casas/19/8.jpeg", "img/casas/19/9.jpeg", "img/casas/19/10.jpeg", "img/casas/19/11.jpeg", "img/casas/19/12.jpeg", "img/casas/19/13.jpeg"], 
-            quartos: "3", 
-            banheiros: "1", 
-            garagem: "sim", 
-            diferencial: "vista" 
         },
         20: { 
             titulo: "Linda Chácara com 4 alqueires", 
@@ -702,18 +669,7 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "2", 
             garagem: "sim", 
             diferencial: "garagem" 
-        },   
-        33: { 
-            titulo: "Casa em área nobre", 
-            preco: "950.000", 
-            localizacao: "Cascatinha, Petrópolis - RJ", 
-            imagemPrincipal: "img/casas/33/principal.jpeg",
-            imagens: ["img/casas/33/principal.jpeg","img/casas/33/1.jpeg","img/casas/33/2.jpeg","img/casas/33/3.jpeg","img/casas/33/4.jpeg"], 
-            quartos: "5", 
-            banheiros: "2", 
-            garagem: "sim", 
-            diferencial: "localização" 
-        }, 
+        },    
         34: { 
             titulo: "Terreno no carangola", 
             preco: "120.000", 
@@ -868,17 +824,7 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "terreno" 
         },
-        48: { 
-            titulo: "Casa a venda em Corrêas", 
-            preco: "320.000", 
-            localizacao: "Corrêas, Petrópolis - RJ", 
-            imagemPrincipal: "img/casas/48/principal.jpeg",
-            imagens: ["img/casas/48/principal.jpeg","img/casas/48/1.jpeg","img/casas/48/2.jpeg","img/casas/48/3.jpeg","img/casas/48/4.jpeg","img/casas/48/5.jpeg", "img/casas/48/6.jpeg", "img/casas/48/7.jpeg", "img/casas/48/8.jpeg"], 
-            quartos: "2", 
-            banheiros: "2", 
-            garagem: "sim", 
-            diferencial: "terreno" 
-        },
+
     };
   
     function getParametroURL(nome) {
