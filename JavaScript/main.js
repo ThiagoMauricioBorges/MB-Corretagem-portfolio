@@ -824,6 +824,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "terreno" 
         },
+        48: { 
+            titulo: "Casa no Alcobacinha", 
+            preco: "550.000", 
+            localizacao: "Alcobacinha, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/48/principal.jpeg",
+            imagens: ["img/casas/48/principal.jpeg","img/casas/48/1.jpeg","img/casas/48/2.jpeg","img/casas/48/3.jpeg","img/casas/48/4.jpeg","img/casas/48/5.jpeg", "img/casas/48/6.jpeg", "img/casas/48/7.jpeg", "img/casas/48/8.jpeg", "img/casas/48/9.jpeg","img/casas/48/10.jpeg","img/casas/48/11.jpeg","img/casas/48/12.jpeg","img/casas/48/13.jpeg","img/casas/48/14.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "piscina" 
+        },
 
     };
   
