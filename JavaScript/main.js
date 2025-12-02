@@ -835,6 +835,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "piscina" 
         },
+        49: { 
+            titulo: "Casa em Secretário", 
+            preco: "900.000", 
+            localizacao: "Secretário, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/49/principal.jpeg",
+            imagens: ["img/casas/49/principal.jpeg","img/casas/49/1.jpeg","img/casas/49/2.jpeg","img/casas/49/3.jpeg","img/casas/49/4.jpeg","img/casas/49/5.jpeg", "img/casas/49/6.jpeg", "img/casas/49/7.jpeg", "img/casas/49/8.jpeg", "img/casas/49/9.jpeg","img/casas/49/10.jpeg","img/casas/49/11.jpeg","img/casas/49/12.jpeg","img/casas/49/13.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "piscina" 
+        },
 
     };
   
