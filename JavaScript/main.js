@@ -846,7 +846,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "piscina" 
         },
-
+        50: { 
+            titulo: "Casa no Carangola", 
+            preco: "300.000", 
+            localizacao: "Carangola, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/50/principal.jpeg",
+            imagens: ["img/casas/50/principal.jpeg","img/casas/50/1.jpeg","img/casas/50/2.jpeg","img/casas/50/3.jpeg","img/casas/50/4.jpeg","img/casas/50/5.jpeg", "img/casas/50/6.jpeg", "img/casas/50/7.jpeg", "img/casas/50/8.jpeg", "img/casas/50/9.jpeg","img/casas/50/10.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "vista" 
+        },
     };
   
     function getParametroURL(nome) {
