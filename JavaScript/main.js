@@ -857,6 +857,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "vista" 
         },
+        51: { 
+            titulo: "Casa no Samambaia", 
+            preco: "830.000", 
+            localizacao: "Samambaia, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/51/principal.jpeg",
+            imagens: ["img/casas/51/principal.jpeg","img/casas/51/1.jpeg","img/casas/50/2.jpeg","img/casas/51/3.jpeg","img/casas/51/4.jpeg","img/casas/51/5.jpeg", "img/casas/51/6.jpeg", "img/casas/51/7.jpeg", "img/casas/51/8.jpeg", "img/casas/51/9.jpeg","img/casas/51/10.jpeg","img/casas/51/11.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "vista" 
+        },
     };
   
     function getParametroURL(nome) {
