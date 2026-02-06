@@ -840,11 +840,22 @@ document.addEventListener("DOMContentLoaded", function () {
             preco: "830.000", 
             localizacao: "Samambaia, Petrópolis - RJ", 
             imagemPrincipal: "img/casas/51/principal.jpeg",
-            imagens: ["img/casas/51/principal.jpeg","img/casas/51/1.jpeg","img/casas/50/2.jpeg","img/casas/51/3.jpeg","img/casas/51/4.jpeg","img/casas/51/5.jpeg", "img/casas/51/6.jpeg", "img/casas/51/7.jpeg", "img/casas/51/8.jpeg", "img/casas/51/9.jpeg","img/casas/51/10.jpeg","img/casas/51/11.jpeg"], 
+            imagens: ["img/casas/51/principal.jpeg","img/casas/51/1.jpeg","img/casas/51/2.jpeg","img/casas/51/3.jpeg","img/casas/51/4.jpeg","img/casas/51/5.jpeg", "img/casas/51/6.jpeg", "img/casas/51/7.jpeg", "img/casas/51/8.jpeg", "img/casas/51/9.jpeg","img/casas/51/10.jpeg","img/casas/51/11.jpeg"], 
             quartos: "3", 
             banheiros: "2", 
             garagem: "sim", 
             diferencial: "vista" 
+        },
+        52: { 
+            titulo: "Casa no Castrioto", 
+            preco: "350.000", 
+            localizacao: "Castrioto, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/52/principal.jpeg",
+            imagens: ["img/casas/52/principal.jpeg","img/casas/52/1.jpeg","img/casas/52/2.jpeg","img/casas/52/3.jpeg","img/casas/52/4.jpeg","img/casas/52/5.jpeg", "img/casas/52/6.jpeg", "img/casas/52/7.jpeg", "img/casas/52/8.jpeg", "img/casas/52/9.jpeg","img/casas/52/10.jpeg","img/casas/52/11.jpeg"], 
+            quartos: "2", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "piscina" 
         },
     };
   
