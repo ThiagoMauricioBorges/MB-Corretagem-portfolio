@@ -857,6 +857,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "piscina" 
         },
+        53: { 
+            titulo: "Chácara em Bemposta", 
+            preco: "850.000", 
+            localizacao: "Bemposta, Bemposta - RJ", 
+            imagemPrincipal: "img/casas/53/principal.jpeg",
+            imagens: ["img/casas/53/principal.jpeg","img/casas/53/1.jpeg","img/casas/53/2.jpeg","img/casas/53/3.jpeg","img/casas/53/4.jpeg","img/casas/53/5.jpeg", "img/casas/53/6.jpeg", "img/casas/53/7.jpeg", "img/casas/53/8.jpeg", "img/casas/53/9.jpeg","img/casas/53/10.jpeg","img/casas/53/11.jpeg","img/casas/53/12.jpeg","img/casas/53/13.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "natureza" 
+        },
     };
   
     function getParametroURL(nome) {
