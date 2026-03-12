@@ -866,7 +866,7 @@ document.addEventListener("DOMContentLoaded", function () {
             quartos: "3", 
             banheiros: "2", 
             garagem: "sim", 
-            diferencial: "natureza" 
+            diferencial: "espaço" 
         },
     };
   
