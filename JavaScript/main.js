@@ -868,6 +868,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "espaço" 
         },
+        54: { 
+            titulo: "Casa em área nobre de Cascatinha", 
+            preco: "930.000", 
+            localizacao: "Cascatinha, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/54/principal.jpeg",
+            imagens: ["img/casas/54/principal.jpeg","img/casas/54/1.jpeg","img/casas/54/2.jpeg","img/casas/54/3.jpeg","img/casas/54/4.jpeg","img/casas/54/5.jpeg", "img/casas/54/6.jpeg", "img/casas/54/7.jpeg", "img/casas/54/8.jpeg", "img/casas/54/9.jpeg","img/casas/54/10.jpeg","img/casas/54/11.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "local" 
+        },
     };
   
     function getParametroURL(nome) {
