@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
             imagens: ["img/casas/3/principalcascatinha.jpeg", "img/casas/3/cascatinha1.jpeg", "img/casas/3/cascatinha2.jpeg", "img/casas/3/cascatinha3.jpeg", "img/casas/3/cascatinha4.jpeg"], 
             quartos: 2, 
             banheiros: 2, 
-            garagem: 1, 
+            garagem: 0, 
             diferencial: "Rua tranquila" 
         },
         4: { 
