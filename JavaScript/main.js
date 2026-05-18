@@ -573,6 +573,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "área" 
         },
+        56: { 
+            titulo: "Casa na Posse", 
+            preco: "270.000", 
+            localizacao: "Posse, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/56/principal.jpeg",
+            imagens: ["img/casas/56/principal.jpeg","img/casas/56/1.jpeg","img/casas/56/2.jpeg","img/casas/56/3.jpeg","img/casas/56/4.jpeg","img/casas/56/5.jpeg", "img/casas/56/6.jpeg", "img/casas/56/7.jpeg", "img/casas/56/8.jpeg", "img/casas/56/9.jpeg","img/casas/56/10.jpeg","img/casas/56/11.jpeg"], 
+            quartos: "2", 
+            banheiros: "2", 
+            garagem: "sim", 
+            diferencial: "vista" 
+        },
     };
 
 
