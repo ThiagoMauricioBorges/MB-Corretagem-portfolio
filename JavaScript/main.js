@@ -584,6 +584,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "vista" 
         },
+        57: { 
+            titulo: "Casa no Alto da Serra", 
+            preco: "690.000", 
+            localizacao: "Alto da Serra, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/57/principal.jpeg",
+            imagens: ["img/casas/57/principal.jpeg","img/casas/57/1.jpeg","img/casas/57/2.jpeg","img/casas/57/3.jpeg","img/casas/57/4.jpeg","img/casas/57/5.jpeg", "img/casas/57/6.jpeg", "img/casas/57/7.jpeg", "img/casas/57/8.jpeg", "img/casas/57/9.jpeg","img/casas/57/10.jpeg","img/casas/57/11.jpeg"], 
+            quartos: "6+", 
+            banheiros: "5+", 
+            garagem: "sim", 
+            diferencial: "garagem" 
+        },
     };
 
 
