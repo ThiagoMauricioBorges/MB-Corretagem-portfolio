@@ -595,6 +595,17 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "sim", 
             diferencial: "garagem" 
         },
+        58: { 
+            titulo: "Casa no Roseiral", 
+            preco: "230.000", 
+            localizacao: "Roseiral, Petrópolis - RJ", 
+            imagemPrincipal: "img/casas/58/principal.jpeg",
+            imagens: ["img/casas/58/principal.jpeg","img/casas/58/1.jpeg","img/casas/58/2.jpeg","img/casas/58/3.jpeg","img/casas/58/4.jpeg","img/casas/58/5.jpeg", "img/casas/58/6.jpeg", "img/casas/58/7.jpeg", "img/casas/58/8.jpeg", "img/casas/58/9.jpeg","img/casas/58/10.jpeg","img/casas/58/11.jpeg"], 
+            quartos: "3", 
+            banheiros: "2", 
+            garagem: "não", 
+            diferencial: "vista" 
+        },
     };
 
 
