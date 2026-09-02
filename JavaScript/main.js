@@ -154,17 +154,6 @@ document.addEventListener("DOMContentLoaded", function () {
             garagem: "Sim", 
             diferencial: "Parque aquático" 
         },
-        13: { 
-            titulo: "Casa Mirante do sol nascente", 
-            preco: "1.600.000", 
-            localizacao: "Itaipava, Petrópolis - RJ", 
-            imagemPrincipal: "img/casas/13/principalitaipava.jpeg",
-            imagens: ["img/casas/13/principalitaipava.jpeg","img/casas/13/itaipava1.jpeg","img/casas/13/itaipava2.jpeg","img/casas/13/itaipava3.jpeg", "img/casas/13/itaipava4.jpeg","img/casas/13/itaipava5.jpeg","img/casas/13/itaipava6.jpeg","img/casas/13/itaipava7.jpeg","img/casas/13/itaipava8.jpeg","img/casas/13/itaipava9.jpeg","img/casas/13/itaipava10.jpeg","img/casas/13/itaipava11.jpeg","img/casas/13/itaipava12.jpeg","img/casas/13/itaipava13.jpeg","img/casas/13/itaipava14.jpeg","img/casas/13/itaipava15.jpeg","img/casas/13/itaipava16.jpeg","img/casas/13/itaipava17.jpeg","img/casas/13/itaipava18.jpeg",], 
-            quartos: 3, 
-            banheiros: 2, 
-            garagem: "Sim", 
-            diferencial: "Vista incrivel" 
-        },
         14: { 
             titulo: "Terreno Carangola", 
             preco: "1.000.000", 
@@ -197,17 +186,6 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "2", 
             garagem: "6 carros", 
             diferencial: "quintal" 
-        },
-        17: { 
-            titulo: "Apartamento no centro", 
-            preco: "680.000", 
-            localizacao: "Centro, Petrópolis - RJ", 
-            imagemPrincipal: "img/casas/17/principalcentro.jpeg",
-            imagens: ["img/casas/17/principalcentro.jpeg","img/casas/17/centro1.jpeg","img/casas/17/centro2real.jpeg","img/casas/17/centro3.jpeg","img/casas/17/centro4.jpeg","img/casas/17/centro2.jpeg","img/casas/17/centro5.jpeg", "img/casas/17/centro6.jpeg", "img/casas/17/centro7.jpeg", "img/casas/17/centro8.jpeg", "img/casas/17/centro9.jpeg", "img/casas/17/centro10.jpeg", "img/casas/17/centro11.jpeg", "img/casas/17/centro12.jpeg", "img/casas/17/centro13.jpeg"], 
-            quartos: "3", 
-            banheiros: "1", 
-            garagem: "sim", 
-            diferencial: "localização" 
         },
         20: { 
             titulo: "Linda Chácara com 4 alqueires", 
@@ -263,17 +241,6 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "1", 
             garagem: "sim", 
             diferencial: "bairro" 
-        },
-        25: { 
-            titulo: "Casa com dois pisos", 
-            preco: "870.000", 
-            localizacao: "Samambaia, Petrópolis - RJ", 
-            imagemPrincipal: "img/casas/25/principal.jpeg",
-            imagens: ["img/casas/25/principal.jpeg","img/casas/25/1.jpeg","img/casas/25/2.jpeg","img/casas/25/3.jpeg","img/casas/25/4.jpeg", "img/casas/25/5.jpeg", "img/casas/25/6.jpeg", "img/casas/25/7.jpeg", "img/casas/25/8.jpeg", "img/casas/25/9.jpeg", "img/casas/25/10.jpeg", "img/casas/25/11.jpeg", "img/casas/25/12.jpeg"], 
-            quartos: "3", 
-            banheiros: "2", 
-            garagem: "sim", 
-            diferencial: "terreno" 
         },
         26: { 
             titulo: "Casa no castelo sao manuel", 
@@ -594,17 +561,6 @@ document.addEventListener("DOMContentLoaded", function () {
             banheiros: "5+", 
             garagem: "sim", 
             diferencial: "garagem" 
-        },
-        58: { 
-            titulo: "Casa no Roseiral", 
-            preco: "230.000", 
-            localizacao: "Roseiral, Petrópolis - RJ", 
-            imagemPrincipal: "img/casas/58/principal.jpeg",
-            imagens: ["img/casas/58/principal.jpeg","img/casas/58/1.jpeg","img/casas/58/2.jpeg","img/casas/58/3.jpeg","img/casas/58/4.jpeg","img/casas/58/5.jpeg", "img/casas/58/6.jpeg", "img/casas/58/7.jpeg", "img/casas/58/8.jpeg", "img/casas/58/9.jpeg","img/casas/58/10.jpeg","img/casas/58/11.jpeg"], 
-            quartos: "3", 
-            banheiros: "2", 
-            garagem: "não", 
-            diferencial: "vista" 
         },
     };
 
